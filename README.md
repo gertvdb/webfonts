@@ -1,6 +1,10 @@
 Webfonts
 =========
 
+[![Build Status](https://travis-ci.org/gertvdb/webfonts.svg?branch=master)](https://travis-ci.org/gertvdb/webfonts)
+[![Coverage Status](https://coveralls.io/repos/github/gertvdb/webfonts/badge.svg?branch=master)](https://coveralls.io/github/gertvdb/webfonts?branch=master)
+
+
 A small library parses a json file to webfont objects that can be used in Javascript or Css.
 
 ## Installation
