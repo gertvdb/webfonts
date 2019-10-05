@@ -1,7 +1,6 @@
-'use strict';
 
-const webfonts = require('../index');
+import { Webfonts } from '../index';
 
 test('should return test', () => {
-    expect(webfonts.Webfonts()).toBe('Test Webfonts');
+  expect(Webfonts()).toBe('Test Webfonts');
 });

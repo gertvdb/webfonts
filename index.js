@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Adds commas to a number
  * @param {number} number
@@ -7,10 +5,10 @@
  * @return {string}
  */
 module.exports = {
-    Webfonts: function() {
-        return 'Test Webfonts';
-    },
-    ScssParser: function() {
-        return 'Test ScssParser';
-    }
+  Webfonts() {
+    return 'Test Webfonts';
+  },
+  ScssParser() {
+    return 'Test ScssParser';
+  },
 };

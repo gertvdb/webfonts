@@ -4,14 +4,21 @@
   "description": "Tool to build a Webfont object from a fonts.config.json that can be parsed",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test:travis": "npm run lint:js && npm run jest:tests && npm run jest:coverage",
+    "lint:js": "node ./node_modules/eslint/bin/eslint.js .",
+    "jest:tests": "jest",
+    "jest:coverage": "jest --coverage",
+    "coveralls:update": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "author": "“Gert <gertvandenbuijs@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.6.2",
+    "babel-jest": "^24.9.0",
     "coveralls": "^3.0.6",
     "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "istanbul": "^0.4.5",
     "jest": "^24.9.0"
   }

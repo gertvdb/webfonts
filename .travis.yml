@@ -14,5 +14,6 @@ install:
   - npm install
 
 script:
-  - npm test
-  - npm run coveralls
+  - npm run lint:js
+  - npm run jest:tests
+  - npm run jest:coverage
