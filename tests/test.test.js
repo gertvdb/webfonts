@@ -1,7 +1,7 @@
 'use strict';
 
-const sayTest = require('../index');
+const webfonts = require('../index');
 
 test('should return test', () => {
-    expect(sayTest()).toBe('Test');
+    expect(webfonts.Webfonts()).toBe('Test Webfonts');
 });

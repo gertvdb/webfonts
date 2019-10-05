@@ -6,6 +6,11 @@
  * @param {string} locale
  * @return {string}
  */
-module.exports = function() {
-    return 'Test';
+module.exports = {
+    Webfonts: function() {
+        return 'Test Webfonts';
+    },
+    ScssParser: function() {
+        return 'Test ScssParser';
+    }
 };
