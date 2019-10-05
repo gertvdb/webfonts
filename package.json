@@ -1,0 +1,18 @@
+{
+  "name": "@gertvdb/webfonts",
+  "version": "1.0.0",
+  "description": "Tool to build a Webfont object from a fonts.config.json that can be parsed",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "author": "“Gert <gertvandenbuijs@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.1"
+  }
+}
